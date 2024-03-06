@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+}
+.btn{
+    aspect-ratio: 1;
+    height: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+    &:nth-child(1){
+        background-color: yellow;
+    }
+    &:nth-child(2){
+        background-color: red;
+    }
+    &:nth-child(3){
+        background-color: purple;
+    }
+    &:nth-child(4){
+        background-color: green;
+    }
+
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.flash{
+    background-color: #f2f2f2 !important;
+}
+.userFlash{
+    background-color: royalblue !important;
+}
